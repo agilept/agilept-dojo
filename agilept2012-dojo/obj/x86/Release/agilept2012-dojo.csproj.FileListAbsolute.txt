@@ -1,0 +1,7 @@
+C:\Users\secdei\Desktop\agilept2012-dojo\agilept2012-dojo\agilept2012-dojo\bin\Release\agilept2012-dojo.exe
+C:\Users\secdei\Desktop\agilept2012-dojo\agilept2012-dojo\agilept2012-dojo\bin\Release\agilept2012-dojo.pdb
+C:\Users\secdei\Desktop\agilept2012-dojo\agilept2012-dojo\agilept2012-dojo\bin\Release\nunit.framework.dll
+C:\Users\secdei\Desktop\agilept2012-dojo\agilept2012-dojo\agilept2012-dojo\bin\Release\nunit.framework.xml
+C:\Users\secdei\Desktop\agilept2012-dojo\agilept2012-dojo\agilept2012-dojo\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\secdei\Desktop\agilept2012-dojo\agilept2012-dojo\agilept2012-dojo\obj\x86\Release\agilept2012-dojo.exe
+C:\Users\secdei\Desktop\agilept2012-dojo\agilept2012-dojo\agilept2012-dojo\obj\x86\Release\agilept2012-dojo.pdb
