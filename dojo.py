@@ -1,1 +1,2 @@
-print "hello"
+class TTTGame(object):
+    pass
