@@ -18,7 +18,9 @@ namespace agilept2012
 
         public TTTGame()
         {
-            board = new ArrayList();
+            board = new ArrayList(9);
+            for(int i = 0; i < 9; ++i)
+                board.Add(0);
         }
 
         internal ArrayList getBoard()
