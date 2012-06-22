@@ -21,5 +21,13 @@ namespace agilept2012
                 Assert.AreEqual(0, b);
             }
         }
+
+        [Test]
+        public void testValidMove()
+        {
+            TTTGame g = new TTTGame();
+
+            Assert.True(g.validMove(0, 0));
+        }
     }
 }

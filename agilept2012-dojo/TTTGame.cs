@@ -27,5 +27,16 @@ namespace agilept2012
         {
             return board;
         }
+
+        internal bool validMove(int l, int col)
+        {
+            //
+            int pos = l*3 + col;
+            if ((int)board[pos] == 0)
+                return true;
+            else
+                return false;
+        }
+
     }
 }
