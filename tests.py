@@ -6,5 +6,10 @@ class TestDojo(unittest.TestCase):
         game = TTTGame()
         self.assertNotEqual(game, None)
 
+    def test_make_move(self):
+        game = TTTGame()
+        game.make_move(TTTGame.x, 1, 1)
+
+
 if __name__ == '__main__':
     unittest.main()
