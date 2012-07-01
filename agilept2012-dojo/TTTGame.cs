@@ -8,6 +8,9 @@ namespace agilept2012
 {
     class TTTGame
     {
+        private ArrayList<List<int>> plays = new ArrayList<List<int>>();
+        private static string p1 = "x";
+        private static string p2 = "o";
 
 
         static void Main(string[] args)
@@ -37,6 +40,17 @@ namespace agilept2012
             else
                 return false;
         }
+        internal bool makeMove(String player, int l, int col)
+        {
+            if (validMove(l, col))
+            {
+                plays[l][col] = player;
+            }
+
+        }
+
+
+
 
     }
 }

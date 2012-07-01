@@ -29,5 +29,19 @@ namespace agilept2012
 
             Assert.True(g.validMove(0, 0));
         }
+
+        [Test]
+        public void testMakeMove()
+        {
+            TTTGame g = new TTTGame();
+            Assert.True(g.makeMove("x",0, 0));
+        }
+        [Test]
+        public void testInvalidMove()
+        {
+            TTTGame g = new TTTGame();
+
+            Assert.False(g.validMove(0, 0));
+        }
     }
 }
